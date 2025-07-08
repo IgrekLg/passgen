@@ -1,0 +1,13 @@
+php_value register_globals 0
+php_value magic_quotes_gpc 0
+php_value session.use_trans_sid 0
+php_value zlib.output_compression 4096
+php_value zlib.output_compression_level 5
+php_value arg_separator.output "&amp;"
+php_value session.use_trans_sid 0
+php_value session.cookie_lifetime 0
+php_value date.timezone "Europe/Moscow"
+php_flag display_errors on
+DirectoryIndex index.php
+Options -Indexes
+AddDefaultCharset utf-8
